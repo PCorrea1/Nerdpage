@@ -26,8 +26,8 @@ html {
     box-shadow:
       0 0 0 4px rgba(0,0,0,0.1),
       inset 0 0 0 3px #1a1b53,
-      inset 0 0 10px black,
-      0 0 10px rgba(0,0,0,0.2);
+      inset 0 0 10px rgb(238, 17, 17),
+      0 0 10px rgba(245, 5, 5, 0.2);
   }
 
   .clock-face {
@@ -40,7 +40,7 @@ html {
   .hand {
     width:50%;
     height:6px;
-    background:rgb(207, 198, 198);
+    background:rgb(238, 4, 4);
     position: absolute;
     top:50%;
     transform-origin: 100%;
